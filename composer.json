@@ -1,5 +1,16 @@
 {
-	"require-dev": {
+    "name": "flyer/facade",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wvanbreukelen",
+            "email": "ikwillerenprogrammeren@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
         "mockery/mockery": "dev-master"
     }
 }
