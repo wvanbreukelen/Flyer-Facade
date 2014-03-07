@@ -1,4 +1,4 @@
-<?php namespace Flyer\Components\Facade;
+<?php namespace Flyer\Components;
 
 use Mockery\MockInterface;
 
@@ -7,7 +7,7 @@ abstract class Facade {
 	/**
 	 * The application instance being facaded.
 	 *
-	 * @var \Illuminate\Foundation\Application
+	 * @var object $app
 	 */
 
 	protected static $app;
